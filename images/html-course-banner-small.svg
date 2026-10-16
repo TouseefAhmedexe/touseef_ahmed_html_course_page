@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+    <rect width="400" height="300" fill="#1b4db3" />
+    <text x="200" y="90" font-family="Arial, sans-serif" font-size="48" text-anchor="middle" fill="#ffffff">&lt;/&gt;</text>
+    <text x="200" y="160" font-family="Arial, sans-serif" font-size="34" text-anchor="middle" fill="#ffffff">HTML</text>
+    <text x="200" y="205" font-family="Arial, sans-serif" font-size="34" text-anchor="middle" fill="#ffffff">Fundamentals</text>
+    <text x="200" y="250" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#ffffff">Bloomrix Training Program</text>
+</svg>
