@@ -52,9 +52,13 @@
             </p>
 
             <figure id="course-image">
-                <img src="images/html-course-banner.svg"
-                    alt="Blue course banner with the text HTML Fundamentals and Bloomrix Training Program"
-                    width="600">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="images/html-course-banner-small.svg" type="image/svg+xml">
+                    <source media="(min-width: 601px)" srcset="images/html-course-banner.svg" type="image/svg+xml">
+                    <img src="images/html-course-banner.svg"
+                        alt="Blue course banner with the text HTML Fundamentals and Bloomrix Training Program"
+                        width="400">
+                </picture>
                 <figcaption>Figure 1: Course banner of the HTML Fundamentals training program.</figcaption>
             </figure>
 
