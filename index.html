@@ -147,6 +147,30 @@
         <!-- end of lessons section -->
 
         <hr>
+
+        <!--Section 3: Media Examples-->
+        <section id="media">
+            <h2>Media Examples</h2>
+
+            <h3>Audio Example</h3>
+            <p>Press play to listen to the sample audio clip.</p>
+            <audio id="sample-audio" controls preload="metadata">
+                <source src="media/audio/sample-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Video Example</h3>
+            <p>Press play to watch the sample video. Turn on captions to see the text track.</p>
+            <video id="sample-video" controls width="480" poster="images/html-course-banner-small.svg" preload="metadata">
+                <source src="media/video/sample-video.mp4" type="video/mp4">
+                <track src="media/video/sample-video-captions.vtt" kind="captions" srclang="en" label="English" default>
+                Your browser does not support the video element.
+            </video>
+
+        </section>
+        <!-- end of media section -->
+
+        <hr>
     </main>
 
 </body>
